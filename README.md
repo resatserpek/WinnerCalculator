@@ -28,11 +28,3 @@ The program will output one of the following:
 If the ticket won a prize, the program will output a line with the format “This ticket won a prize of class X and amount Y.”, where X is the relevant prize class from the table for the lottery and Y is the prize amount won using a UK format. For example “This ticket won a prize of class 5 and amount £100”.
 If the ticket did not win a prize, the program will output “This ticket did not win a prize.”
 If the ticket did win a prize, the program will print a third line containing the details of how the ticket won the prize in the format “Matched the numbers X, Y, Z from pool 1 and the number N from pool 2.”
-Note
-Please make sure that the input is given in correct format and the program does not make any assumptions about the user input.
-
-## Development
-This program was developed without any third party libraries. The program is entirely your own code but you can of course use the standard JavaScript objects/functions.
-
-## Future Work
-The program could be modified or extended to handle different lotteries and prize structures or to handle multiple tickets in one go.
