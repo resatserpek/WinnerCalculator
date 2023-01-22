@@ -20,7 +20,8 @@ Match 1 number from pool 1 and 1 number from pool 2: Prize class 9 (£1)
 A ticket can be matched to a maximum of one prize tier, and it should always be the highest tier possible.
 ## Usage
 To run the program, open a terminal and navigate to the directory where the program is located.
-Then, run the command node index.js LOTTO1 <winning numbers> <ticket numbers>, where <winning numbers> and <ticket numbers> are the comma-separated values for the winning numbers and the ticket numbers respectively.
+Then, run the command
+`node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers>` where <winning numbers> and <ticket numbers> are the comma-separated values for the winning numbers and the ticket numbers respectively.
 
 ## Output
 The program will output one of the following:
@@ -28,3 +29,8 @@ The program will output one of the following:
 If the ticket won a prize, the program will output a line with the format “This ticket won a prize of class X and amount Y.”, where X is the relevant prize class from the table for the lottery and Y is the prize amount won using a UK format. For example “This ticket won a prize of class 5 and amount £100”.
 If the ticket did not win a prize, the program will output “This ticket did not win a prize.”
 If the ticket did win a prize, the program will print a third line containing the details of how the ticket won the prize in the format “Matched the numbers X, Y, Z from pool 1 and the number N from pool 2.”
+  
+ ## Handling Multiple Tickets
+ The script can also handle multiple tickets:
+  `node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers1> <ticket numbers2> <ticket numbers3> ..`
+node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers>
