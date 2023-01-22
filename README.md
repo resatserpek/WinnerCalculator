@@ -21,7 +21,7 @@ A ticket can be matched to a maximum of one prize tier, and it should always be 
 ## Usage
 To run the program, open a terminal and navigate to the directory where the program is located.
 Then, run the command
-`node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers>` where <winning numbers> and <ticket numbers> are the comma-separated values for the winning numbers and the ticket numbers respectively.
+`node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers>` where `<winning numbers>` and `<ticket numbers>` are the comma-separated values for the winning numbers and the ticket numbers respectively.
 
 ## Output
 The program will output one of the following:
