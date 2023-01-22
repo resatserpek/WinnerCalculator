@@ -33,4 +33,3 @@ If the ticket did win a prize, the program will print a third line containing th
  ## Handling Multiple Tickets
  The script can also handle multiple tickets:
   `node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers1> <ticket numbers2> <ticket numbers3> ..`
-node winner-calculator.js LOTTO1 <winning numbers> <ticket numbers>
